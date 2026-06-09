@@ -1,0 +1,84 @@
+h1 {
+    font-family: Federo, sans-serif;
+    font-size: 1;
+}
+
+h2 {
+    font-family: Open Sans;
+}
+
+p {
+    text-align: Left;
+    font-family: Open Sans;
+    max-width: 30em;
+}
+
+a {
+    font-family: Open Sans;
+    font-weight: bold;
+    max-width: 30em;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    border: 10px solid #8ba7fb;
+    padding: 3em;
+    margin: 2em;
+    max-width: 30em;
+    background-color: #a9bfff;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.firstletter {
+    font-family: Federo, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #1b2cca;
+    font-size: x-large;
+    padding-right: 0.07em;
+}
+#imgForcover {
+  width: 50%;
+    border: 10px dashed #8ba7fb;
+    margin: 1em;
+    float: none;
+    display:flex;
+    justify-content: center;
+}
+img {
+    width: 40%;
+    border: 10px solid #8ba7fb;
+    margin: 1em;
+    float: inline-start;
+}
+footer {
+    
+    padding: 2em;
+    background-color:#a9bfff;
+    border: 10px solid #8ba7fb;
+    
+    max-width: 32em;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer a, p {
+    font-family: Open Sans;
+    max-width: 50em;
+    padding: 0;
+    margin:0;
+}
