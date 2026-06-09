@@ -17,7 +17,6 @@ a {
     font-family: Open Sans;
     font-weight: bold;
     max-width: 30em;
-    padding: 20px 30px;
     text-decoration: none;
     color: black;
 }
@@ -39,6 +38,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 .firstletter {
@@ -50,11 +50,11 @@ nav {
     padding-right: 0.07em;
 }
 #imgForcover {
-  width: 50%;
+    width: 50%;
     border: 10px dashed #8ba7fb;
     margin: 1em;
     float: none;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 img {
@@ -64,21 +64,14 @@ img {
     float: inline-start;
 }
 footer {
-    
     padding: 2em;
-    background-color:#a9bfff;
+    background-color: #a9bfff;
     border: 10px solid #8ba7fb;
-    
+
     max-width: 32em;
-    
+
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-}
-#footer a, p {
-    font-family: Open Sans;
-    max-width: 50em;
-    padding: 0;
-    margin:0;
 }
